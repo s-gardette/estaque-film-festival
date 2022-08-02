@@ -1,5 +1,5 @@
 <template>
-  <header class="pt-4 md:pt-8 max-w-lg mx-auto">
+  <header class="z-10 pt-4 md:pt-8 max-w-lg mx-auto">
     <p class="uppercase font-title text-center text-xl mb-4 md:mb-6">
       Bande à Part présente
     </p>

@@ -8,8 +8,21 @@
 @tailwind utilities;
 
 #content {
-  background-image: url(./assets/footer-pattern.png);
+  background-image: url(./footer-pattern.png);
   background-repeat: repeat-x;
   background-position: bottom left;
   background-size: 5rem;
 }
+
+/* #content:after {
+  content: "";
+  background-image: url(./background.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+} */

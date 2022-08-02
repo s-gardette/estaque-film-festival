@@ -1,9 +1,11 @@
 <template>
-  <section id="content" class="min-h-screen min-w-screen bg-yellow text-blue">
-    <Logo />
-    <Films />
+  <div>
+    <section id="content" class="min-h-screen min-w-screen bg-yellow text-blue">
+      <Logo class="z-10 relative" id="logo" />
+      <Films />
+    </section>
     <Footer />
-  </section>
+  </div>
 </template>
 
 <script setup>

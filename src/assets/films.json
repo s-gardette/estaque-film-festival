@@ -1,5 +1,18 @@
 [
   {
+    "id": "marius-jeannette",
+    "title": "Marius et Jeannette",
+    "poster": "marius-jeannette.jpg",
+    "quote": "Quit playing gangster!",
+    "director": "Takeshi Kitano",
+    "synopsys": "Masao s'ennuie. Il habite Tokyo avec sa grand-mère qui travaille toute la journée. Grâce à une amie de cette dernière, Masao rencontre Kikujiro, un yakusa vieillissant avec lequel il part à la recherche de sa mère, qu'il ne connait pas et qui vit au bord de la mer.",
+    "duration": "1h56",
+    "types": ["Comédie", "Drame"],
+    "keywords": "japan, loser, road trip, travel,disappearance, summer, hitchhike",
+    "schedule": ""
+  },
+  {
+    "id": "kikujiro",
     "title": "L'été de Kikujiro",
     "poster": "kikujiro.jpg",
     "quote": "Quit playing gangster!",
@@ -7,78 +20,88 @@
     "synopsys": "Masao s'ennuie. Il habite Tokyo avec sa grand-mère qui travaille toute la journée. Grâce à une amie de cette dernière, Masao rencontre Kikujiro, un yakusa vieillissant avec lequel il part à la recherche de sa mère, qu'il ne connait pas et qui vit au bord de la mer.",
     "duration": "1h56",
     "types": ["Comédie", "Drame"],
-    "keywords": "japan, loser, road trip, travel,disappearance, summer, hitchhike"
+    "keywords": "japan, loser, road trip, travel,disappearance, summer, hitchhike",
+    "schedule": ""
   },
   {
     "title": "Psycho Beach party",
-    "id": "tt0199683",
+    "id": "psycho-beach-party",
     "poster": "psycho-beach-party.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "Point Break",
-    "id": "",
+    "id": "point-break",
     "poster": "point-break.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "Lamb",
-    "id": "",
+    "id": "lamb",
     "poster": "lamb.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "Bianca",
-    "id": "",
+    "id": "bianca",
     "poster": "bianca.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "La plage",
-    "id": "",
+    "id": "the-beach",
     "poster": "the-beach.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "La vie aquatique",
-    "id": "",
+    "id": "life-aquatic",
     "poster": "life-aquatic.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "Spring breakers",
-    "id": "",
+    "id": "spring-breakers",
     "poster": "spring-breakers.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "Top Gun",
-    "id": "",
+    "id": "top-gun",
     "poster": "top-gun.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   },
   {
     "title": "PING PONG SUMMER",
-    "id": "",
+    "id": "ping-pong-summer",
     "poster": "ping-pong-summer.jpg",
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music."
+    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
+    "schedule": ""
   }
 ]

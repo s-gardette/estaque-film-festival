@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.4.7",
     "flowbite": "^1.5.1",
     "imdb-api": "^4.4.1",

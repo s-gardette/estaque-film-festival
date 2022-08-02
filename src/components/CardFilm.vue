@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="movie_card film peer">
+    <div class="z-10 movie_card film peer">
       <div class="info_section">
         <div class="movie_header">
           <img class="locandina" :src="'posters/' + film.poster" />
@@ -13,19 +13,23 @@
             }}</span>
             {{ film.types }}
           </p>
+          <p class="font-bold">
+            Horaire : <span class="text-yellow">{{ film.schedule }}</span>
+          </p>
         </div>
+
         <div class="movie_desc">
           <p class="text font-body">
             {{ film.synopsys }}
           </p>
         </div>
-        <div class="movie_social">
+        <div class="movie_quote">
           <p
             class="text-yellow shadow absolute right-0 pr-10 text-xl font-cursive"
           >
             {{ film.quote }}
           </p>
-          <button>En savoir Plus</button>
+          <ModalFilm />
         </div>
       </div>
       <div
@@ -39,7 +43,7 @@
       ></div>
     </div>
     <div
-      class="background hidden peer-hover:block absolute w-screen h-screen top-0 left-0"
+      class="z-5 background hidden peer-hover:block fixed w-screen h-screen top-0 left-0 opacity-50 bg-color-blue"
       :style="{
         background: 'url(images/' + film.poster + ')',
         backgroundSize: 'cover',
@@ -49,6 +53,10 @@
     ></div>
   </div>
 </template>
+
+<script setup>
+import ModalFilm from "./ModalFilm.vue";
+</script>
 
 <script>
 export default {
@@ -62,10 +70,10 @@ export default {
   display: block;
   height: 450px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 2px;
   transition: all 0.4s;
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
     transition: all 0.4s;
   }
   .info_section {
@@ -74,7 +82,7 @@ export default {
     height: 100%;
     background-blend-mode: multiply;
     z-index: 2;
-    border-radius: 10px;
+    border-radius: 2px;
     .movie_header {
       position: relative;
       padding: 25px;
@@ -91,7 +99,7 @@ export default {
         display: inline-block;
         margin-top: 10px;
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 2px;
         border: 1px solid rgba(255, 255, 255, 0.13);
       }
       .type {
@@ -114,29 +122,9 @@ export default {
         color: #cfd6e1;
       }
     }
-    .movie_social {
-      height: 10%;
+    .movie_quote {
       padding-left: 15px;
       padding-bottom: 20px;
-      ul {
-        list-style: none;
-        padding: 0;
-        li {
-          display: inline-block;
-          color: rgba(255, 255, 255, 0.4);
-          transition: color 0.3s;
-          transition-delay: 0.15s;
-          margin: 0 10px;
-          &:hover {
-            transition: color 0.3s;
-            color: rgba(255, 255, 255, 0.8);
-          }
-          i {
-            font-size: 19px;
-            cursor: pointer;
-          }
-        }
-      }
     }
   }
   .blur_back {
@@ -147,7 +135,7 @@ export default {
     width: 100%;
     right: 0;
     background-size: cover;
-    border-radius: 11px;
+    border-radius: 2px;
   }
 }
 
@@ -193,7 +181,7 @@ export default {
   }
 
   .info_section {
-    background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+    background: linear-gradient(to top, #1a3852 50%, transparent 100%);
     display: inline-grid;
   }
 }

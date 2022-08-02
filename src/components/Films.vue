@@ -1,9 +1,9 @@
 <template>
   <section>
     <h2>Les films du festival</h2>
-    <div class="flex flex-wrap gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-12">
       <CardFilm
-        class="md:w-1/2"
+        class="col-span-1"
         v-for="film in films"
         :film="film"
         :key="film.titre"
