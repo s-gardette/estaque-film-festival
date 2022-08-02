@@ -1,0 +1,15 @@
+@import "./assets/fonts/peace-sans.css";
+@import "./assets/fonts/selima.css";
+@import "./assets/fonts/glacial-indifference.css";
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#content {
+  background-image: url(./assets/footer-pattern.png);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: 5rem;
+}
