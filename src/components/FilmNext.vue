@@ -8,8 +8,8 @@
     <h2
       class="bg-blue z-10 text-center my-10 text-xl md:text-3xl text-yellow font-title"
     >
-      Visionnage : {{ films[0].schedule }} <br />
-      Lieu : {{ films[0].location }}
+      Visionnage : {{ film.schedule }} <br />
+      Lieu : {{ film.location }}
     </h2>
     <h3 class="text-center">
       <a
@@ -18,11 +18,7 @@
         >Comment se rendre au lieu de visionnage ?</a
       >
     </h3>
-    <CardFilm
-      class="px-4 pb-12"
-      :film="films[0]"
-      :key="films[0].titre"
-    ></CardFilm>
+    <CardFilm class="px-4 pb-12" :film="film" :key="film.titre"></CardFilm>
   </section>
 </template>
 
@@ -34,8 +30,10 @@ import CardFilm from "./CardFilm.vue";
 import json from "../assets/films.json";
 export default {
   data() {
+    const films = json;
+    const film = films[0];
     return {
-      films: json,
+      film,
     };
   },
 };

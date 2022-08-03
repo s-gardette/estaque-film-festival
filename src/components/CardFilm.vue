@@ -1,9 +1,20 @@
 <template>
-  <div>
+  <div
+    data-aos="fade-up"
+    data-aos-offset="0"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-bottom"
+  >
     <div class="z-10 movie_card film peer hover:shadow-2xl">
       <div class="info_section pb-8 md:pb-16">
         <div class="movie_header">
-          <img class="locandina" :src="'posters/' + film.poster" />
+          <img
+            class="locandina"
+            :src="'posters/' + film.poster + '?nf_resize=fit&w=300'"
+          />
           <h1 class="font-title uppercase">{{ film.title }}</h1>
           <h4 class="font-cursive">{{ film.date }}, {{ film.director }}</h4>
           <p class="font-bold text-xl font-title">
