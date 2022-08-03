@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2 flex justify-center">
+  <div class="md:w-1/2 flex justify-center">
     <button
       class="text-yellow text-3xl font-cursive bg-green px-4 py-2 self-center rounded hover:shadow"
       id="show-modal"

@@ -1,6 +1,9 @@
 <template>
   <div>
-    <section id="content" class="min-h-screen min-w-screen bg-yellow text-blue">
+    <section
+      id="content"
+      class="min-h-screen min-w-screen bg-yellow text-blue pb-28"
+    >
       <Logo class="z-10 relative" id="logo" />
       <FilmNext />
       <Films />

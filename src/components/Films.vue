@@ -5,7 +5,9 @@
     >
       Les films autres films du festival
     </h2>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-12 pb-20">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 md:px-12 pb-12 md:pb-20"
+    >
       <CardFilm
         class="col-span-1"
         v-for="film in films"
