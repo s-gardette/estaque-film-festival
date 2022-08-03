@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:242783e263e7d4d8341c6414932238bc3f2fcb4dd2fea5d4b229845ad2aa3eef
-size 652
+{
+  "name": "L'estaque Film Festivale",
+  "short_name": "EIFF",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
