@@ -27,7 +27,7 @@
                   class="w-36 flex justify-center items-center mb-6 lg:mb-0 mx-auto md:mx-0"
                 >
                   <img
-                    :src="'users/' + user + '.png?nf_resize=fit&w=300'"
+                    :src="'users/' + user"
                     class="rounded-full shadow-md object-cover"
                   />
                 </div>
