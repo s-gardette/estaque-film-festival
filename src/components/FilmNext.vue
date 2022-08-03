@@ -3,16 +3,13 @@
     <h2
       class="z-10 text-center my-10 md:my-16 text-xl md:text-3xl text-blue font-title"
     >
-      Les films autres films du festival
+      Le prochain Film (C'est l'ouverture Youpi !!!)
     </h2>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 px-12 pb-20">
-      <CardFilm
-        class="col-span-1"
-        v-for="film in films"
-        :film="film"
-        :key="film.titre"
-      ></CardFilm>
-    </div>
+    <CardFilm
+      class="px-12 pb-12"
+      :film="films[0]"
+      :key="films[0].titre"
+    ></CardFilm>
   </section>
 </template>
 

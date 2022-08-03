@@ -2,6 +2,7 @@
   {
     "id": "marius-jeannette",
     "title": "Marius et Jeannette",
+    "title_quebec": "Marius et Jeannette",
     "poster": "marius-jeannette.jpg",
     "quote": "Eh oui, je vais t'emmerder et toute ta vie en plus.",
     "director": "Robert Guédiguian",
@@ -12,7 +13,8 @@
     "schedule": "Mercredi 21H30",
     "location": "Terasse",
     "comments": "",
-    "date": "1997"
+    "date": "1997",
+    "trailer": "CJC-9lhEnTM"
   },
   {
     "id": "kikujiro",
@@ -31,7 +33,8 @@
       "Laure LG": "Il y a bien une plage, 1m34",
       "Phillipe M": "Need la chemise de Kitano ASAP svp"
     },
-    "date": "1999"
+    "date": "1999",
+    "trailer": "nFAV_iYX5KY"
   },
   {
     "title": "La plage",
@@ -52,7 +55,8 @@
       "Alexandre LG": "Alex Garland a fait le scénario",
       "Phillipe M": "LEOOOOOOO"
     },
-    "date": "2000"
+    "date": "2000",
+    "trailer": "7vSsx1RkGls"
   },
   {
     "title": "Point Break",
@@ -71,7 +75,8 @@
     "duration": "2h",
     "types": ["Drame", "Aventure", "Romance", "Thriller"],
     "keywords": "surfer, undercover, wave, surfboard, fbi, self-destruction, extreme sports, self-discovery, parachute, police operation, parachuting, moral conflict, surfing, gang, los angeles, california, bank robbery, woman director",
-    "date": "1991"
+    "date": "1991",
+    "trailer": "jcDD2-s4vWA"
   },
   {
     "title": "Bianca",
@@ -90,7 +95,8 @@
     "duration": "1h 36m",
     "types": ["Drame", "Comédie"],
     "keywords": "psychoanalysis, investigation, school teacher, death of neighbor, 1980s",
-    "date": "1984"
+    "date": "1984",
+    "trailer": "xCm8yclndN8"
   },
   {
     "title": "Lamb",
@@ -111,7 +117,8 @@
     "duration": "1h45m",
     "types": ["Drame", "Aventure", "Romance", "Thriller"],
     "keywords": "mountain, musician, brother, iceland, grief, birth, couple, mental illness, sheep farm, remote location, folk tale",
-    "date": "2021"
+    "date": "2021",
+    "trailer": "hnEwJKVWjFM"
   },
   {
     "title": "Psycho Beach party",
@@ -131,7 +138,8 @@
     "duration": "1h35m",
     "types": ["Comédie", "Horreur"],
     "keywords": "dancing, detective, confession, beach, surfer, satire, malibu, friends, revenge, murder, based on play or musical, diner, spoof, summer, killer, cult film, psychotronic, drag",
-    "date": "2000"
+    "date": "2000",
+    "trailer": "SdyF7NTwFek"
   },
 
   {
@@ -152,7 +160,8 @@
     "duration": "1h45m",
     "types": ["Aventure", "Comédie", "Drame"],
     "keywords": "parent child relationship, red cap, rivalry, dysfunctional family, pirate, magic realism, oceanography, scientific expedition, absurd humor, diorama, research turtles, acoustic guitar",
-    "date": "2004"
+    "date": "2004",
+    "trailer": "UpU0DZXTGA0"
   },
   {
     "title": "Top Gun",
@@ -170,7 +179,8 @@
     "duration": "1h 49m",
     "types": ["Drame", "Action"],
     "keywords": "loss of loved one, lovesickness, fighter pilot, self-discovery, pilot, dying and death, training camp, air force, airplane, dangerous, battle assignment, u.s. navy, hostility, secret love, cowardliness, pilot school",
-    "date": "1986"
+    "date": "1986",
+    "trailer": "xa_z57UatDY"
   },
   {
     "title": "PING PONG SUMMER",
@@ -185,7 +195,8 @@
     "duration": "1h32m",
     "types": ["Comédie"],
     "keywords": "ping pong, vacation",
-    "date": "2014"
+    "date": "2014",
+    "trailer": "LqE32n-K7Qg"
   },
   {
     "title": "Spring breakers",
@@ -207,7 +218,8 @@
     "duration": "1h34m",
     "types": ["Drame", "Crime"],
     "keywords": "robbery, florida, drug dealer, female friendship, art house, drugs, spring break, young adult",
-    "date": "2013"
+    "date": "2013",
+    "trailer": "Dv9_dn1U5NQ"
   },
   {
     "title": "Que la Bëte Meure",
@@ -225,6 +237,7 @@
     "duration": "1h47m",
     "types": ["Drame", "Thriller"],
     "keywords": "loss of loved one, beach, father murder, letter, seaside, french noir, driver",
-    "date": "1969"
+    "date": "1969",
+    "trailer": "0vJ0aN5BZUk"
   }
 ]
