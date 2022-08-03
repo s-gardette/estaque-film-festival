@@ -13,7 +13,7 @@ export default {
         <div
           class="modal-container bg-blue text-yellow font-body flex relative"
         >
-          <div class="w-full p-12 z-10">
+          <div class="w-full md:p-12 z-10">
             <div class="modal-body relative">
               <button
                 class="modal-default-button font-title text-xl hover:text-white fixed top-10 right-10"
@@ -61,7 +61,6 @@ export default {
 }
 
 .modal-container {
-  width: 80vw;
   min-height: 90vh;
   margin: 0px auto;
   background-color: #fff;
@@ -70,6 +69,12 @@ export default {
   transition: all 0.3s ease;
   overflow-y: auto;
   max-height: 90vh;
+  @media screen and (min-width: 768px) {
+    width: 85vw;
+  }
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
 }
 
 .modal-header h3 {

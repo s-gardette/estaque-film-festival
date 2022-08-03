@@ -45,8 +45,8 @@
             </div>
           </div>
         </div>
-        <Trailer :film="film" />
         <Keywords :film="film" />
+        <Trailer :film="film" />
       </template>
       <template #modal-bg>
         <div

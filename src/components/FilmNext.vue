@@ -1,12 +1,25 @@
 <template>
   <section>
     <h2
-      class="z-10 text-center my-10 md:my-16 text-xl md:text-3xl text-blue font-title"
+      class="z-10 text-center my-10 md:mb-8 text-xl md:text-3xl text-blue font-title"
     >
       Le prochain Film (C'est l'ouverture Youpi !!!)
     </h2>
+    <h2
+      class="bg-blue z-10 text-center my-10 text-xl md:text-3xl text-yellow font-title"
+    >
+      Visionnage : {{ films[0].schedule }} <br />
+      Lieu : {{ films[0].location }}
+    </h2>
+    <h3 class="text-center">
+      <a
+        class="underline font-body text-blue hover:text-green"
+        :href="'https://www.google.com/maps/search/?api=1&query=43.36219328461216,5.3149513937961865'"
+        >Comment se rendre au lieu de visionnage ?</a
+      >
+    </h3>
     <CardFilm
-      class="px-12 pb-12"
+      class="px-4 pb-12"
       :film="films[0]"
       :key="films[0].titre"
     ></CardFilm>

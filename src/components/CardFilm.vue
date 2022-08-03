@@ -162,8 +162,8 @@ export default {
 
 @media screen and (max-width: 768px) {
   .movie_card {
-    width: 95%;
-    margin: 70px auto;
+    width: 99%;
+    margin: 10px auto;
     min-height: 350px;
     height: auto;
   }
