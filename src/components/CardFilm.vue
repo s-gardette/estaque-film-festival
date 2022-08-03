@@ -1,22 +1,25 @@
 <template>
   <div>
-    <div class="z-10 movie_card film peer">
-      <div class="info_section">
+    <div class="z-10 movie_card film peer hover:shadow-2xl">
+      <div class="info_section pb-16">
         <div class="movie_header">
           <img class="locandina" :src="'posters/' + film.poster" />
           <h1 class="font-title uppercase">{{ film.title }}</h1>
-          <h4 class="font-cursive">2017, {{ film.director }}</h4>
+          <h4 class="font-cursive">{{ film.date }}, {{ film.director }}</h4>
+          <p class="font-bold text-xl font-title">
+            <span class="text-yellow">{{ film.schedule }}</span>
+          </p>
 
           <p class="text-white font-body">
-            <span class="minutes text-yellow font-bold">{{
+            <span class="minutes text-yellow font-bold mr-4">{{
               film.duration
             }}</span>
-            {{ film.types }}
-          </p>
-          <p class="font-bold">
-            Horaire : <span class="text-yellow">{{ film.schedule }}</span>
+            <span v-for="type in film.types" :key="type" class="text-xs pr-4">{{
+              type
+            }}</span>
           </p>
         </div>
+        <ModalFilm :film="film" />
 
         <div class="movie_desc">
           <p class="text font-body">
@@ -25,11 +28,10 @@
         </div>
         <div class="movie_quote">
           <p
-            class="text-yellow shadow absolute right-0 pr-10 text-xl font-cursive"
+            class="text-yellow shadow absolute right-0 pr-5 bottom-5 text-xl font-cursive max-w-xs"
           >
             {{ film.quote }}
           </p>
-          <ModalFilm />
         </div>
       </div>
       <div
@@ -73,7 +75,7 @@ export default {
   border-radius: 2px;
   transition: all 0.4s;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: all 0.4s;
   }
   .info_section {

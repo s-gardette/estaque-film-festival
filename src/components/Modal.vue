@@ -8,30 +8,33 @@ export default {
 
 <template>
   <Transition name="modal">
-    <div v-if="show" class="modal-mask">
+    <div v-if="show" class="modal-mask" @click="$emit('close')">
       <div class="modal-wrapper">
-        <div class="modal-container bg-blue text-yellow font-body flex">
-          <div class="modal-image w-1/2 h-full">
-            <slot name="image">
-              <img src="estaque.jpg" class="object-cover w-full h-full" />
-            </slot>
-          </div>
-          <div class="w-1/2 p-12">
-            <button class="modal-default-button" @click="$emit('close')">
-              OK
-            </button>
-            <div class="modal-header">
-              <slot name="header">default header</slot>
-            </div>
-            <div class="modal-body">
+        <div
+          class="modal-container bg-blue text-yellow font-body flex relative"
+        >
+          <div class="w-full p-12 z-10">
+            <div class="modal-body relative">
+              <button
+                class="modal-default-button font-title text-xl hover:text-white fixed top-10 right-10"
+                @click="$emit('close')"
+              >
+                X
+              </button>
               <slot name="body">default body</slot>
             </div>
-            <div class="modal-footer">
-              <slot name="footer">
-                default footer
-              </slot>
-            </div>
           </div>
+          <slot name="modal-bg">
+            <div
+              class="z-5 background absolute w-full h-full top-0 left-0 opacity-5 bg-color-blue-200"
+              :style="{
+                background: 'url(estaque.jpg)',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+              }"
+            ></div>
+          </slot>
         </div>
       </div>
     </div>
@@ -49,6 +52,7 @@ export default {
   background-color: rgba(0, 0, 0, 0.5);
   display: table;
   transition: opacity 0.3s ease;
+  overflow: hidden;
 }
 
 .modal-wrapper {
@@ -58,12 +62,14 @@ export default {
 
 .modal-container {
   width: 80vw;
-  height: 90vh;
+  min-height: 90vh;
   margin: 0px auto;
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
   transition: all 0.3s ease;
+  overflow-y: auto;
+  max-height: 90vh;
 }
 
 .modal-header h3 {

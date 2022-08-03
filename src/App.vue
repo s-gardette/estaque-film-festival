@@ -5,6 +5,7 @@
       <Films />
     </section>
     <Footer />
+    <Install />
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 import Footer from "./components/Footer.vue";
 import Logo from "./components/Logo.vue";
 import Films from "./components/Films.vue";
+import Install from "./components/Install.vue";
 </script>
 
 <style></style>

@@ -3,13 +3,16 @@
     "id": "marius-jeannette",
     "title": "Marius et Jeannette",
     "poster": "marius-jeannette.jpg",
-    "quote": "Quit playing gangster!",
-    "director": "Takeshi Kitano",
-    "synopsys": "Masao s'ennuie. Il habite Tokyo avec sa grand-mère qui travaille toute la journée. Grâce à une amie de cette dernière, Masao rencontre Kikujiro, un yakusa vieillissant avec lequel il part à la recherche de sa mère, qu'il ne connait pas et qui vit au bord de la mer.",
-    "duration": "1h56",
-    "types": ["Comédie", "Drame"],
-    "keywords": "japan, loser, road trip, travel,disappearance, summer, hitchhike",
-    "schedule": ""
+    "quote": "Eh oui, je vais t'emmerder et toute ta vie en plus.",
+    "director": "Robert Guédiguian",
+    "synopsys": "Les amours de Marius et Jeannette qui vivent dans les quartiers Nord de l'Estaque à Marseille. Marius vit seul dans une cimenterie désaffectée qui domine le quartier, gardien de cette usine en démolition. Jeannette élève seule ses deux enfants avec un maigre salaire de caissière. Leur rencontre ne sera pas simple car, outre les difficultés inhérentes à leur situation sociale, ils sont blessés par la vie.",
+    "duration": "1h45m",
+    "types": ["Drame", "Romance", "Comédie"],
+    "keywords": "love, working class, unemployment",
+    "schedule": "Mercredi 21H30",
+    "location": "Terasse",
+    "comments": "",
+    "date": "1997"
   },
   {
     "id": "kikujiro",
@@ -21,79 +24,153 @@
     "duration": "1h56",
     "types": ["Comédie", "Drame"],
     "keywords": "japan, loser, road trip, travel,disappearance, summer, hitchhike",
-    "schedule": ""
-  },
-  {
-    "title": "Psycho Beach party",
-    "id": "psycho-beach-party",
-    "poster": "psycho-beach-party.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
-  },
-  {
-    "title": "Point Break",
-    "id": "point-break",
-    "poster": "point-break.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
-  },
-  {
-    "title": "Lamb",
-    "id": "lamb",
-    "poster": "lamb.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
-  },
-  {
-    "title": "Bianca",
-    "id": "bianca",
-    "poster": "bianca.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
+    "schedule": "Jeudi 10h45",
+    "location": "Sous Plex",
+    "comments": {
+      "Paul R": "Jamais vu et ça me faisait très envie. On voit une plage dans le trailer ! Ca compte",
+      "Laure LG": "Il y a bien une plage, 1m34",
+      "Phillipe M": "Need la chemise de Kitano ASAP svp"
+    },
+    "date": "1999"
   },
   {
     "title": "La plage",
     "id": "the-beach",
     "poster": "the-beach.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
+    "quote": "Elle doit bien exister...",
+    "director": "Danny Boyle",
+    "synopsys": "Richard, jeune Américain, amateur de sensations inédites a choisi l'Asie comme terrain d'élection, dans l'espoir d'y vivre des aventures fortes et exaltantes. Dans un hôtel miteux de Bangkok boudé par les touristes, il fait la connaissance d'un couple de Francais, Françoise et Etienne.",
+    "duration": "1h59m",
+    "types": ["Drame", "Aventure", "Romance", "Thriller"],
+    "keywords": "hippie, based on novel or book, exotic island, beach, map, group dynamics, commune,shark attack, leader, thailand, community, backpacker, delusion, marijuana, shark, extramarital affair",
+    "schedule": "Jeudi 14h",
+    "location": "Sous Plex",
+    "comments": {
+      "Julia B": "Leooooo",
+      "Paul R": "Putain prépubère Leonardo qui tape sur un moteur de recherche d'il y a 200 ans, j'achète",
+      "Laure LG": "Allo le film s'appelle LA PLAGE je crois qu'on a pas le choix",
+      "Alexandre LG": "Alex Garland a fait le scénario",
+      "Phillipe M": "LEOOOOOOO"
+    },
+    "date": "2000"
   },
+  {
+    "title": "Point Break",
+    "id": "point-break",
+    "poster": "point-break.jpg",
+    "quote": "Toute amitié a ses limites. Tout homme a ses limites. Ensembles ils vont vivre l'aventure jusqu'au point de non retour.",
+    "director": "Katheryn Bigelow",
+    "synopsys": "Johnny Utah, jeune recrue du FBI, se voit confier sa première enquête: démanteler un réseau de braqueurs responsables de vingt-six attaques de banques et surnommé 'les anciens présidents'. Convaincu d'avoir à faire à d'intrépides surfeurs, Johny décide d'infiltrer le milieu de la planche... ",
+    "schedule": " 21H30",
+    "location": "Terasse",
+    "comments": {
+      "Paul R": "Keanu est beaucoup trop bo",
+      "Alexandre LG": "Une amitié virile",
+      "Phillipe M": "Rien que pr les punchlines je dis oui"
+    },
+    "duration": "2h",
+    "types": ["Drame", "Aventure", "Romance", "Thriller"],
+    "keywords": "surfer, undercover, wave, surfboard, fbi, self-destruction, extreme sports, self-discovery, parachute, police operation, parachuting, moral conflict, surfing, gang, los angeles, california, bank robbery, woman director",
+    "date": "1991"
+  },
+  {
+    "title": "Bianca",
+    "id": "bianca",
+    "poster": "bianca.jpg",
+    "quote": "",
+    "director": "Nani Moretti",
+    "synopsys": "Michele Apicella, professeur de mathématiques, a une curieuse manie : épier de sa terrasse tous ses voisins et les mettre en fiche. Il s'intéresse plus particulièrement à Bianca, adorable professeur de français. Quand une série de meurtres se produit autour de lui, Michele devient le suspect idéal.",
+    "schedule": "Jeudi 11h",
+    "location": "Sous Plex",
+    "comments": {
+      "Paul R": "J'étais pas sûr mais Nani ressemble à un prof d'histoire creepy donc meh, pourquoi pas",
+      "Alexandre LG": "ben fatto",
+      "Phillipe M": "Alerte coupe de cheveux à la BHL pr notre Nanni Moretti , on a pris des cartons rouges pr moins que ça "
+    },
+    "duration": "1h 36m",
+    "types": ["Drame", "Comédie"],
+    "keywords": "psychoanalysis, investigation, school teacher, death of neighbor, 1980s",
+    "date": "1984"
+  },
+  {
+    "title": "Lamb",
+    "id": "lamb",
+    "poster": "lamb.jpg",
+    "quote": "Il est né le divin enfant.",
+    "director": "Valdimar Jóhannsson",
+    "synopsys": "María et Ingvar vivent reclus avec leur troupeau de moutons dans une ferme en Islande. Lorsqu’ils découvrent un mystérieux nouveau-né, ils décident de le garder et de l'élever comme leur enfant. Cette nouvelle perspective apporte beaucoup de bonheur au couple, mais la nature leur réserve une dernière surprise…",
+    "schedule": "Jeudi 14h15",
+    "location": "Sous Plex",
+    "comments": {
+      "Julia B": "Agneau",
+      "Paul R": "CHOOOOOO",
+      "Laure LG": "Ca a l'air bizarre et je vois pas le rapport avec la plage mais j'accepte",
+      "Alexandre LG": "Je veux absolument le voir !!!!!!!!!!!!",
+      "Phillipe M": "Idée de barbecue"
+    },
+    "duration": "1h45m",
+    "types": ["Drame", "Aventure", "Romance", "Thriller"],
+    "keywords": "mountain, musician, brother, iceland, grief, birth, couple, mental illness, sheep farm, remote location, folk tale",
+    "date": "2021"
+  },
+  {
+    "title": "Psycho Beach party",
+    "id": "psycho-beach-party",
+    "poster": "psycho-beach-party.jpg",
+    "quote": "Faites la fête jusqu’à ce que vous tombiez... Mort.",
+    "director": "Robert Lee King",
+    "synopsys": "En 1962, durant ses vacances d'été à Malibu Beach, en Californie, la très complexée Florence 'Nénette' Forest (Lauren Ambrose) découvre le cadavre d'une jeune spectatrice dans un drive-in. Celle-ci a été assassinée au terme d'un flirt poussé. ",
+    "schedule": "Jeudi 21H30",
+    "location": "Terasse",
+    "comments": {
+      "Paul R": "Hey mais c'est la meuf de Six Feet",
+      "Laure LG": "Oh purée ça part !",
+      "Alexandre LG": "je ne savais pas que ce film existait : depuis je veux le voir",
+      "Phillipe M": "Chef d œuvre avant même le visionnage "
+    },
+    "duration": "1h35m",
+    "types": ["Comédie", "Horreur"],
+    "keywords": "dancing, detective, confession, beach, surfer, satire, malibu, friends, revenge, murder, based on play or musical, diner, spoof, summer, killer, cult film, psychotronic, drag",
+    "date": "2000"
+  },
+
   {
     "title": "La vie aquatique",
     "id": "life-aquatic",
     "poster": "life-aquatic.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
-  },
-  {
-    "title": "Spring breakers",
-    "id": "spring-breakers",
-    "poster": "spring-breakers.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
+    "quote": "Plus vous descendez, plus la vie devient étrange.",
+    "director": "Wes Anderson",
+    "synopsys": "Steve Z., le chef de l'équipe océanographique « Team Zissou », sait que l'expédition qu'il conduit est sans doute la dernière, et son plus cher désir est de graver son nom dans l'Histoire.",
+    "schedule": "Vendredi 11h",
+    "location": "Sous Plex",
+    "comments": {
+      "Julia B": "J'ai rien vu en fait",
+      "Paul R": "Je ne l'ai vu qu'une fois, ça me chauffe",
+      "Alexandre LG": "Meilleur film du monde ! Steve Scissou a l'esprit Estaquéen",
+      "Eline G": "Je ne l'ai pas vu en entier à cause d'un problème de téléchargement. 😅"
+    },
+    "duration": "1h45m",
+    "types": ["Aventure", "Comédie", "Drame"],
+    "keywords": "parent child relationship, red cap, rivalry, dysfunctional family, pirate, magic realism, oceanography, scientific expedition, absurd humor, diorama, research turtles, acoustic guitar",
+    "date": "2004"
   },
   {
     "title": "Top Gun",
     "id": "top-gun",
     "poster": "top-gun.jpg",
-    "quote": "1985 - Wish You Were Here!",
-    "director": "Michael Tully",
-    "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
+    "quote": "Là-haut avec les meilleurs, parmi les meilleurs.",
+    "director": "Tony Scott",
+    "synopsys": "Accrochez vos ceintures et venez partager avec les pilotes de la Navy des scènes aériennes époustouflantes… Une mission capitale est confiée à Tom Cruise. Avec le soutien de son instructeur Kelly McGillis, il va prendre les plus grands risques pour servir son pays.",
+    "schedule": "Samedi 14h30",
+    "location": "Sous Plex",
+    "comments": {
+      "Paul R": "Ca à l'air terrible, j'aime pas les avions, mais j'aime beaucoup Tom Cruise, Val Kilmer est stylé, donc allez",
+      "Phillipe M": "OH OUI"
+    },
+    "duration": "1h 49m",
+    "types": ["Drame", "Action"],
+    "keywords": "loss of loved one, lovesickness, fighter pilot, self-discovery, pilot, dying and death, training camp, air force, airplane, dangerous, battle assignment, u.s. navy, hostility, secret love, cowardliness, pilot school",
+    "date": "1986"
   },
   {
     "title": "PING PONG SUMMER",
@@ -102,6 +179,52 @@
     "quote": "1985 - Wish You Were Here!",
     "director": "Michael Tully",
     "synopsys": "In 1985 a summer vacation in Ocean City, Md., changes the life of a shy white teen who's obsessed with table tennis and hip-hop music.",
-    "schedule": ""
+    "schedule": "Vendredi 18h",
+    "location": "Terasse",
+    "comments": { "Paul R": "Ping-pong et hip-hop, mes deux passions" },
+    "duration": "1h32m",
+    "types": ["Comédie"],
+    "keywords": "ping pong, vacation",
+    "date": "2014"
+  },
+  {
+    "title": "Spring breakers",
+    "id": "spring-breakers",
+    "poster": "spring-breakers.jpg",
+    "quote": "Des vacances sexy",
+    "director": "Michael Tully",
+    "synopsys": "Pour financer leur Spring Break, quatre filles aussi fauchées que sexy décident de braquer un fast-food. Et ce n’est que le début… Lors d’une fête dans une chambre de motel, la soirée dérape et les filles sont embarquées par la police. En bikini et avec une gueule de bois d’enfer, elles se retrouvent devant le juge...",
+    "schedule": "Dimanche 11H",
+    "location": "Sous Plex",
+    "comments": {
+      "Julia B": "Je suis passée à côté de ce film donc je veux bien retenter",
+      "Paul R": "Chooo, je sais que tout le monde a vu ce film sauf moi mais allez",
+      "Laure LG": "J'ai vu, c'était bof.",
+      "Alexandre LG": "fluorescent",
+      "Phillipe M": "#eauprecieuse",
+      "Rebecca P": "Ok parce que y'a James Franco"
+    },
+    "duration": "1h34m",
+    "types": ["Drame", "Crime"],
+    "keywords": "robbery, florida, drug dealer, female friendship, art house, drugs, spring break, young adult",
+    "date": "2013"
+  },
+  {
+    "title": "Que la Bëte Meure",
+    "id": "bete-meure",
+    "poster": "bete-meure.jpg",
+    "quote": "La maison de la colére et de la vengeance",
+    "director": "Claude Chabrol",
+    "synopsys": "Un jeune garçon rentrant d'une partie de pêche est écrasé sur la place d'un village breton par un chauffard qui prend la fuite. Charles Thénier, écrivain, est le père de la victime. Il se jure de retrouver le meurtrier et de venger son fils.",
+    "schedule": "Dimanche 14h",
+    "location": "Terasse",
+    "comments": {
+      "Paul R": "Chooooooooooo",
+      "Alexandre LG": "J'ai été captivé par la bande annonce et son rythme a coupé le souffle "
+    },
+    "duration": "1h47m",
+    "types": ["Drame", "Thriller"],
+    "keywords": "loss of loved one, beach, father murder, letter, seaside, french noir, driver",
+    "date": "1969"
   }
 ]
