@@ -31,7 +31,7 @@ import json from "../assets/films.json";
 export default {
   data() {
     const films = json;
-    const film = films[0];
+    const film = films[2];
     return {
       film,
     };
